@@ -31,7 +31,7 @@ setupIonicReact();
 
 const App: React.FC = () => (
   <IonApp>
-    <>
+    {/* <>
           <IonMenu contentId="main-content">
           <IonHeader>
             <IonToolbar color="tertiary">
@@ -68,7 +68,7 @@ const App: React.FC = () => (
           
         </IonMenu>
 
-    </>
+    </> */}
 
     <IonReactRouter>
 
@@ -111,11 +111,11 @@ const App: React.FC = () => (
             <IonLabel><h2 ><strong>Sections</strong></h2 ></IonLabel>
           </IonTabButton>
 
-          <IonTabButton >
+          {/* <IonTabButton >
           <IonPage id="main-content">
               <IonMenuButton>Join Us</IonMenuButton>
           </IonPage>
-          </IonTabButton>
+          </IonTabButton> */}
 
         </IonTabBar>
 
