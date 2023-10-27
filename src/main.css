@@ -4,22 +4,22 @@
  */
 
 /* This sets a different background and item background in light mode on ios */
-/* .ios body { */
-  /* --ion-background-color: linear-gradient(90deg, #198276 0%, #00a693 100%); */
-  /* --ion-toolbar-color:var(--ion-color-dark-contrast); */
-  /* --ion-toolbar-background: none ; */
-  /* --ion-tab-bar-background: none; */
-  /* --ion-tab-bar-border-color: none: */
-/* } */
+.ios body {
+  --ion-background-color: linear-gradient(90deg, #198276 0%, #00a693 100%);
+  --ion-toolbar-color:var(--ion-color-dark-contrast);
+  --ion-toolbar-background:none;
+  --ion-tab-bar-background:#00a693;
+  --ion-tab-bar-border-color: none: 
+}
   
 /* This sets a different background and item background in light mode on md */
-/* .md body { */
-  /* --ion-background-color: linear-gradient(90deg, #198276 0%, #00a693 100%); */
-  /* --ion-toolbar-color:var(--ion-color-dark-contrast); */
-  /* --ion-toolbar-background: none ; */
-  /* --ion-tab-bar-background: none; */
-  /* --ion-tab-bar-border-color: none: */
-/* } */
+.md body {
+  --ion-background-color: linear-gradient(90deg, #198276 0%, #00a693 100%);
+  --ion-toolbar-color:var(--ion-color-dark-contrast);
+  --ion-toolbar-background:none;
+  --ion-tab-bar-background:#00a693;
+  --ion-tab-bar-border-color: none: 
+}
   
 /* This is added for the flashing that happens when toggling between themes */
 ion-item {
